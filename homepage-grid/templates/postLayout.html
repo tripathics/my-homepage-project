@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block customStyleScripts %}
+
+    <script src="./static/post.js"></script>
+    <!-- space mono -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./static/post.css">
+    <!-- highlightjs -->    
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script> -->
+    
+    <link rel="stylesheet" href="./static/hljs/default.min.css">
+    <link rel="stylesheet" href="./static/vs.css">
+    <script src="./static/hljs/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    
+    <script>hljs.highlightAll();</script>
+{% endblock %}
+
+{% block title %}
+    {% block postTitle %}
+    {% endblock %}
+{% endblock %}
+
+ {% block main %}
+
+<header class="head-container">
+    {% block postHero %}{% endblock %}
+</header>
+
+<section class="post-ctnr">
+    
+    <section class="post">
+        {% block postSection %}s
+        {% endblock %}
+    </section>
+    <aside class="toc-wrapper">
+        <div class="toc">
+            <h2>In this article</h2>
+            {% block toc %}
+            {% endblock %}
+        </div>
+    </aside>
+
+
+</section>
+
+{% endblock %}
