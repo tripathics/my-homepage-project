@@ -64,7 +64,7 @@ This is the first version. `cd` into the `homepage` directory.
     ├── script.js
     └── styles.css
 ```
->For Directory removed in accordance of CS50's academic honesty.
+>Source removed in accordance of CS50's academic honesty.
 
 ### homepage-grid
 
