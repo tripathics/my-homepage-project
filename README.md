@@ -65,15 +65,7 @@ This is the first version. `cd` into the `homepage` directory.
     ├── script.js
     └── styles.css
 ```
-
-```shell
-cd homepage
-```
-Open the `index.html` file in any browser like google-chrome, firefox or safari. e.g. if you are on linux, open the index.html on google-chrome through terminal as
-
-```shell
-google-chrome-stable ./index.html
-```
+>For CS50 academic honesty, I removed this directory.
 
 ### homepage-grid
 
