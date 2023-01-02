@@ -37,7 +37,6 @@ cd my-homepage-project
 
 ### homepage
 
-Source: https://github.com/tripathics/my-homepage-project/tree/main/homepage
 This is the first version. `cd` into the `homepage` directory.
 
 **Project structure:**
@@ -65,12 +64,14 @@ This is the first version. `cd` into the `homepage` directory.
     ├── script.js
     └── styles.css
 ```
->For CS50 academic honesty, I removed this directory.
+>For Directory removed in accordance of CS50's academic honesty.
 
 ### homepage-grid
 
-Source: https://github.com/tripathics/my-homepage-project/tree/main/homepage-grid
-Demo: https://tripathics.github.io/homepage
+**Source:** https://github.com/tripathics/my-homepage-project/tree/main/homepage-grid
+
+**Demo:** https://tripathics.github.io/homepage
+
 This one is made using flask.
 
 **Project structure:**
@@ -240,8 +241,9 @@ The result string is later concatenated and written into the `outFile`.
 
 ### homepage-final
 
-Source: https://github.com/tripathics/my-homepage-project/tree/main/homepage-final
-Demo: https://tripathics.github.io
+**Source:** https://github.com/tripathics/my-homepage-project/tree/main/homepage-final
+
+**Demo:** https://tripathics.github.io
 
 This one is made in React and Gatsby. For this, you will need `npm` and `node` on your system. Install `node` for your system from [here](https://nodejs.org/en/).
 
